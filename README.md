@@ -27,11 +27,11 @@ These parts should all be printed in black ASA since that would work best for pa
 ## body.blend
 The template file for the coach-body parts; still a work in progress, this has only been tested printed in PLA so far.  It should be printed rotated by 90 on the X axis, such that the corridor rises vertically upwards from the heat plate; that way no supports are required.
 
-# Milled Parts
+# CNC Milled Parts
 
-These parts are milled from 3 mm thick aluminium plate and on my [cnc-step.de](https://cnc.step.de) CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm).
+These parts are milled from 3 mm thick aluminium plate on my [cnc-step.de](https://cnc.step.de) CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm).
 
-dmu_base_motor_open_second.crv: the chassis base for the motor open second.
+* dmu_base_motor_open_second.crv: the chassis base for the motor open second.
 
-The files for the motor open second brake and trailer composite units have not yet been generated; the only difference between the three files will be the position of the steps beneath the doors.  The files are scaled to cut out in 1:30 scale (i.e. 10 millimetres to the foot).  It is likely you may have to "tile" the printing of the files into sections for your CNC milling machine as they are likely to be too long to work in a single cut. ALL OF THE FILES require a sacrificial substrate (e.g. a sheet of thing MDF) as they need to cut THROUGH the aluminimum plate.
+The files for the motor open second brake and trailer composite units have not yet been generated; the only difference between the three files will be the position of the steps beneath the doors.  The files are scaled to cut out in 1:30 scale (i.e. 10 millimetres to the foot).  It is likely you may have to "tile" the printing of the files into sections for your CNC milling machine as they are likely to be too long to go through in a single cut. ALL OF THE FILES require a sacrificial substrate (e.g. a sheet of thing MDF) as they need to cut THROUGH the aluminimum plate.
 
