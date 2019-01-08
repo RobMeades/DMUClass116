@@ -22,14 +22,14 @@ The chassis components including:
 
 There are also two pieces which would be glued/screwed under the aluminimum chassis plate of the trailer composite car; the two by two chassis sides of the trailer composite car would attach to these but I've not generated the trailer composite chassis sides yet.
 
-These parts should all be printed in black ASA since that would work best for painting.  I printed the chassis sides in 0.05 mm ultimate resolution and everything else in 0.2 mm fast resolution; no supports are required provided the chassis sides are printed such that they are printed with the sides with the detail on  pointing vertically upwards (i.e. their widest/flatest side is against the heat plate).
+These parts should all be printed in black ASA since that would work best for painting.  I printed the chassis sides in 0.05 mm ultimate resolution and everything else in 0.2 mm fast resolution; no supports are required provided the chassis sides are printed such that the sides with the detail on  are pointing vertically upwards (i.e. their widest/flatest side is against the heat plate).
 
 ## body.blend
 The template file for the coach-body parts; still a work in progress, this has only been tested printed in PLA so far.  It should be printed rotated by 90 on the X axis, such that the corridor rises vertically upwards from the heat plate; that way no supports are required.
 
 # Milled Parts
 
-These parts are milled from 3 mm thick aluminium plate and on my [cnc-step.de](https://cnc.step.de) CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm)
+These parts are milled from 3 mm thick aluminium plate and on my [cnc-step.de](https://cnc.step.de) CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm).
 
 dmu_base_motor_open_second.crv: the chassis base for the motor open second.
 
