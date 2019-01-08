@@ -29,7 +29,7 @@ The template file for the coach-body parts; still a work in progress, this has o
 
 # Milled Parts
 
-These parts are milled from 3 mm thick aluminium plate and on my [cnc-step.de](httos://cnc.step.de) CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm)
+These parts are milled from 3 mm thick aluminium plate and on my [cnc-step.de](https://cnc.step.de) CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm)
 
 dmu_base_motor_open_second.crv: the chassis base for the motor open second.
 
