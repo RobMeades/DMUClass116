@@ -1,6 +1,6 @@
 # Introduction
 
-This repo contains the component files for 3D printing/milling a Class 116 DMU, as would have run on the Rhymney Valley line in South Wales during the 1960s and 1970s.  This is all part of my Gauge 1 DMU project, which is described here:
+This repo contains the component files for 3D printing/milling a Gauge 1 model of a Class 116 DMU, as would have run on the Rhymney Valley line in South Wales during the 1960s and 1970s.  This is all part of my Gauge 1 DMU project, which is described here:
 
 http://www.meades.org/misc/gauge_1_dmu/gauge_1_dmu.html
 
@@ -33,5 +33,5 @@ These parts are milled from 3 mm thick aluminium plate on my [cnc-step.de](https
 
 * dmu_base_motor_open_second.crv: the chassis base for the motor open second.
 
-The files for the motor open second brake and trailer composite units have not yet been generated; the only difference between the three files will be the position of the steps beneath the doors.  The files are scaled to cut out in 1:30 scale (i.e. 10 millimetres to the foot).  It is likely you may have to "tile" the printing of the files into sections for your CNC milling machine as they are likely to be too long to go through in a single cut. ALL OF THE FILES require a sacrificial substrate (e.g. a sheet of thing MDF) as they need to cut THROUGH the aluminimum plate.
+The files for the motor open second brake and trailer composite units have not yet been generated; the only difference between the three files will be the position of the steps beneath the doors.  The files are scaled to cut out in 1:30 scale (i.e. 10 millimetres to the foot).  It is likely you may have to "tile" the printing of the files into sections for your CNC milling machine as they are likely to be too long to go through in a single cut. ALL OF THE FILES require a sacrificial substrate (e.g. a sheet of 3 mm thick MDF or hardboard) as they need to cut THROUGH the aluminimum plate.
 
