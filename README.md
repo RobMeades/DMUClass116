@@ -4,14 +4,19 @@ This repo contains the component files for 3D printing/milling a Gauge 1 model o
 
 http://www.meades.org/misc/gauge_1_dmu/gauge_1_dmu.html
 
-Please refer to that page for detailed descriptions/pictures/assembly instructions for the components you find here.
+Please refer to that page for more information.
 
 # 3D Printed Parts
 All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 model they should be printed scaled down by 30.45 times (as measured for my [Prusa](https://www.prusa3d.com/) 3D printer).  I printed all parts in ASA for UV-proofness.
 
 ## cab_front_and_roof.blend
 
-The front portion of the cab and the roof immediately above it as two parts.  The roof should be printed rotated through 90 degrees on the X axis as that way it requires the fewest supports.  The cab currently also requires supports but I'm about to manually add my own supports in the specific areas required; slicers otherwise tend to over-add supports which are then difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient.
+The front portion of the cab and the roof immediately above it as two parts which should be printed separately.  In your slicer, rotate the roof rotated through 90 degrees on the X axis and ask the slicer to add supports.
+
+![Cab and roof](pics_for_readme/cab_front_and_roof_1.jpg)
+![Roof rotated](pics_for_readme/cab_front_and_roof_2.jpg)
+
+The cab requires no added supports; they have been manually added to the object and should be cut away after printing as shown; slicers otherwise tend to over-add supports which are then difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient.
 
 ## chassis.blend
 
