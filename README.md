@@ -11,12 +11,12 @@ All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 mo
 
 ## cab_front_and_roof.blend
 
-The front portion of the cab and the roof immediately above it as two parts which should be printed separately.  In your slicer, rotate the roof rotated through 90 degrees on the X axis and ask the slicer to add supports.
+The front portion of the cab and the roof immediately above it as two parts which should be printed separately.  For the roof, rotate it in your slicer through 90 degrees on the X axis and ask the slicer to add supports.
 
 ![Cab and roof](pics_for_readme/cab_front_and_roof_1.jpg)
 ![Roof rotated](pics_for_readme/cab_front_and_roof_2.jpg)
 
-The cab requires no added supports; they have been manually added to the object and should be cut away after printing as shown; slicers otherwise tend to over-add supports which are then difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient.
+The cab requires no added supports; they have been manually added to the object and should be cut away after printing as shown; slicers otherwise tend to over-add supports which are difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient.
 
 ## chassis.blend
 
