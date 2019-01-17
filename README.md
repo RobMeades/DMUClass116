@@ -16,7 +16,7 @@ The front portion of the cab and the roof immediately above it as two parts whic
 ![Cab and roof](pics_for_readme/cab_front_and_roof_1.jpg)
 ![Roof rotated](pics_for_readme/cab_front_and_roof_2.jpg)
 
-The cab requires no added supports; they have been manually added to the object and should be cut away after printing as shown; slicers otherwise tend to over-add supports which are difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient.
+The cab requires no added supports; they have been manually added to the object and should be cut away after printing as shown; slicers otherwise tend to over-add supports which are difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient but, if you have sufficient trust in your 3D printer, the cab would benefit from, say 0.05 mm resolution (which was an 18 hour print on my Prusa printer).
 
 ## chassis.blend
 
@@ -34,9 +34,9 @@ The template file for the coach-body parts; still a work in progress, this has o
 
 # CNC Milled Parts
 
-These parts are milled from 3 mm thick aluminium plate on my [cnc-step.de](https://cnc.step.de) High-Z/S-400T CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm).
+These parts are milled from 3 mm thick aluminium plate (assumed to be 100 mm wide by at least 622 mm long) on my [cnc-step.de](https://cnc.step.de) High-Z/S-400T CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm).
 
 * dmu_base_motor_open_second.crv: the chassis base for the motor open second.
 
-The files for the motor open second brake and trailer composite units have not yet been generated; the only difference between the three files will be the position of the steps beneath the doors.  The files are scaled to cut out in 1:30 scale (i.e. 10 millimetres to the foot).  It is likely you may have to "tile" the printing of the files into sections for your CNC milling machine as they are likely to be too long to go through in a single cut. ALL OF THE FILES require a sacrificial substrate (e.g. a sheet of 3 mm thick MDF or hardboard) as they need to cut THROUGH the aluminimum plate.
+The files for the motor open second brake and trailer composite units have not yet been generated; the only difference between the three files will be the position of the steps beneath the doors.  The files are scaled to cut out in 1:30 scale (i.e. 10 millimetres to the foot).  It is likely you may have to "tile" the printing of the files into sections for your CNC milling machine as they may be too long to go through in a single cut. ALL OF THE FILES require a sacrificial substrate (e.g. a sheet of 3 mm thick MDF or hardboard) as they need to cut THROUGH the aluminimum plate.   I ran the spindle at 14000 RPM and used 2 mm and 4 mm [Only One PM60](https://www.cutwel.co.uk/milling-routing-and-sawing/general-purpose-milling-cutters/pm60-only-one-end-mills) end-mills from Cutwel.  I also found that, in the final "cut-out" cut with the 2 mm milling bit, I had to manually reduced the feed rate to 25% as, no matter what I did, I couldn't persuade VCarve to set my desired glacial feed rate of 0.5 mm/second in order to avoid damage to the tiny bit.  I saved the 4 mm toolpaths and the 2 mm toolpaths into separate files in two tiles each 311 mm long (i.e. two halves); these `.nc` toolpaths are also included.
 
