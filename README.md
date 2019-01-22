@@ -7,10 +7,9 @@ http://www.meades.org/misc/gauge_1_dmu/gauge_1_dmu.html
 Please refer to that page for more information.
 
 # 3D Printed Parts
-All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 model they should be exported to STL scaled down by 30.45 times (at lesat, this was corrected for my [Prusa](https://www.prusa3d.com/) 3D printer) in order to achieve 1/32nd scale.  I printed all parts in ASA for UV-proofness.
+All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 model they should be exported to STL scaled down by 30.45 times (at least, this was corrected for my [Prusa](https://www.prusa3d.com/) 3D printer) in order to achieve 1/32nd scale.  I printed all the parts in ASA for UV-proofness.
 
 ## cab_front_and_roof.blend
-
 The front portion of the cab and the roof immediately above it as two parts which should be printed separately.  For the roof, rotate it in your slicer through 90 degrees on the X axis and ask the slicer to add supports.
 
 ![Cab and roof](pics_for_readme/cab_front_and_roof_1.jpg)
@@ -18,8 +17,10 @@ The front portion of the cab and the roof immediately above it as two parts whic
 
 The cab requires no added supports; they have been manually added to the object and should be cut away after printing as shown; slicers otherwise tend to over-add supports which are difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient but, if you have sufficient trust in your 3D printer, the cab would benefit from, say 0.05 mm resolution (which was an 18 hour print on my Prusa printer).
 
-## chassis.blend
+## drivers_steps.blend
+These are the two sets of steps that lead up to the drivers door, intended to be CA'ed to the front of the driver's-end bogie.  Print off two copies in black ASA; resolution is not important (I used the "0.15 mm optimal" setting on my Prusa printer).  In your slicer program, turn them upside-down so that the large flat top surface is against the heat bed and request it to add supports everywhere.  The printed parts will be somewhat support-busy I'm afraid; take care when trimming the support away.  When fitting the parts on either side of the front bogie you may need to trim the portion that hooks over the top of the bogie on the inner-side so that it doesn't foul the wheels.
 
+## chassis.blend
 The chassis components, including:
 - a box which should be held (glued/screwed) underneath the aluminium chassis plate (see below for that CNC-printed part) to hold the control electronics for the DMU,
 - a piece which "jigsaw" attaches to that and will house the battery (held in place with Velcro straps) and fuse holder underneath the DMU,
@@ -33,7 +34,6 @@ These parts should all be printed in black ASA since that would work best for pa
 The template file for the coach-body parts; still a work in progress, this has only been tested printed in PLA so far.  It should be printed rotated by 90 on the X axis, such that the corridor rises vertically upwards from the heat plate; that way no supports are required.
 
 # CNC Milled Parts
-
 These parts are milled from 3 mm thick aluminium plate (assumed to be 100 mm wide by at least 622 mm long) on my [cnc-step.de](https://cnc.step.de) High-Z/S-400T CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm).
 
 * dmu_base_motor_open_second.crv: the chassis base for the motor open second.
