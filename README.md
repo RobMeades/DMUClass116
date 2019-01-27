@@ -40,6 +40,9 @@ These files contain the five sections of the motor open second body.  Number 1 i
 
 I printed the body sections in white ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they have relatively sparse detail.
 
+## seats.blend
+Passenger seats; print in white ASA at 0.15 mm resolution, no supports required.
+
 ## dmu_library.blend
 This file is a collection of the various component parts I used in creating all of the above: the jigsaw pattern, body template, un-cut chassis sides, various punches for hinges/door-stops etc.  Not to be printed in itself, just a useful repository of tools.
 
