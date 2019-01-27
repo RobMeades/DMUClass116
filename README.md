@@ -18,7 +18,7 @@ The front portion of the cab and the roof immediately above it as two parts whic
 The cab requires no added supports; they have been manually added to the object and should be cut away after printing as shown; slicers otherwise tend to over-add supports which are difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient but, if you have sufficient trust in your 3D printer, the cab front would benefit from, say 0.05 mm resolution (which was an 18 hour print on my Prusa printer).
 
 ## drivers_steps.blend
-These are the two sets of steps that lead up to the drivers door, intended to be CA'ed to the front of the driver's-end bogie.  Print off two copies in black ASA; resolution is not important (I used the "0.15 mm optimal" setting on my Prusa printer).  In your slicer program, turn them upside-down so that the large flat top surface is against the heat bed and request it to add supports everywhere.  The printed parts will be somewhat support-busy I'm afraid; take care when trimming the support away.  When fitting the parts on either side of the front bogie you may need to trim the portion that hooks over the top of the bogie on the inner-side so that it fits nicely and doesn't foul the wheels.
+These are the steps that lead up to the drivers door, intended to be CA'ed to the front of the driver's-end bogie.  Print off two copies in black ASA; resolution is not important (I used the "0.15 mm optimal" setting on my Prusa printer).  In your slicer program, turn them upside-down so that the large flat top surface is against the heat bed and request it to add supports everywhere.  The printed parts will be somewhat support-busy I'm afraid; take care when trimming the support away.  When fitting the parts on either side of the front bogie you may need to trim the portion that hooks over the top of the bogie on the inner-side so that it fits nicely and doesn't foul the wheels.
 
 ## chassis.blend
 The chassis components, including:
@@ -28,9 +28,9 @@ The chassis components, including:
 
 There are also two pieces which would be glued/screwed under the aluminimum chassis plate of the trailer composite car.  The two chassis sides, again in two parts, of the trailer composite car would attach to these but I've not generated the trailer composite chassis sides yet.
 
-These parts should all be printed in black ASA since that would work best for painting.  No supports are required provided the chassis sides are printed such that the sides with the detail on are pointing vertically upwards (i.e. their widest/flatest side is against the heat plate).  It may be advisable to ask your slicer program to add a "brim" as the jigsaw edges of the ASA can sometimes rise up from the heatbed, giving a messy finish.
+These parts should all be printed in black ASA since that would work best for painting.  No supports are required provided the chassis sides are printed such that the sides with the detail on are pointing vertically upwards (i.e. the widest/flatest side is against the heat plate).  It may be advisable to ask your slicer program to add a "brim" as the jigsaw edges of the ASA can sometimes rise up from the heatbed, giving a messy finish; a brim will help to stick them down.
 
-I printed the chassis sides in 0.05 mm ultimate resolution and the rest in 0.2 mm fast resolution.  
+I printed the chassis sides in 0.05 mm ultimate resolution and the rest in 0.2 mm fast resolution.
 
 ## body_motor_open_second_section_*.blend
 These files contain the five sections of the motor open second body.  Number 1 is at the front, attached to the cab, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders), no need to add any in your slicer programme.
