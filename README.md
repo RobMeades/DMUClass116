@@ -40,7 +40,7 @@ These files contain the five sections of the motor open second body.  Number 1 i
 
 I printed the body sections in white ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they have relatively sparse detail.
 
-## seats.blend
+## seat.blend
 Passenger seats; print in white ASA at 0.15 mm resolution, no supports required.
 
 ## dmu_library.blend
