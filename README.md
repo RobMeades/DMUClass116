@@ -33,7 +33,7 @@ These parts should all be printed in black ASA since that would work best for pa
 I printed the chassis sides in 0.05 mm ultimate resolution and the rest in 0.2 mm fast resolution.
 
 ## body_motor_open_second_section_*.blend
-These files contain the five sections of the motor open second body.  Number 1 is at the front, attached to the cab, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders), no need to add any in your slicer programme; use a long-nosed pliers to break the supports away from the finished print.
+These files contain the five sections of the motor open second body.  Number 1 is at the front, attached to the cab, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports (the bar-like cylinders) have been added manually, no need to add any in your slicer programme; use a long-nosed pliers to break the supports away from the finished print.
 
 ![Body](pics_for_readme/body_1.jpg)
 ![Body on heat plate](pics_for_readme/body_2.jpg)
@@ -41,7 +41,7 @@ These files contain the five sections of the motor open second body.  Number 1 i
 I printed the body sections in white ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they have relatively sparse detail.
 
 ## seats.blend
-Passenger seats; print in white ASA at 0.15 mm resolution, no supports required.
+Passenger seats; print in white ASA, as they come, at 0.15 mm resolution, no supports required.
 
 ## dmu_library.blend
 This file is a collection of the various component parts I used in creating all of the above: the jigsaw pattern, body template, un-cut chassis sides, various punches for hinges/door-stops etc.  Not to be printed in itself, just a useful repository of tools.
