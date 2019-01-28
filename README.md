@@ -33,7 +33,7 @@ These parts should all be printed in black ASA since that would work best for pa
 I printed the chassis sides in 0.05 mm ultimate resolution and the rest in 0.2 mm fast resolution.
 
 ## body_motor_open_second_section_*.blend
-These files contain the five sections of the motor open second body.  Number 1 is at the front, attached to the cab, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders), no need to add any in your slicer programme.
+These files contain the five sections of the motor open second body.  Number 1 is at the front, attached to the cab, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders), no need to add any in your slicer programme; use a long-nosed pliers to break the supports away from the finished print.
 
 ![Body](pics_for_readme/body_1.jpg)
 ![Body on heat plate](pics_for_readme/body_2.jpg)
