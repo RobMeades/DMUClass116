@@ -7,7 +7,7 @@ http://www.meades.org/misc/gauge_1_dmu/gauge_1_dmu.html
 Please refer to that page for more information.
 
 # 3D Printed Parts
-All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 model they should be exported to STL scaled down by 30.45 times (at least, this was corrected for my [Prusa](https://www.prusa3d.com/) 3D printer) in order to achieve 1/32nd scale.  I printed all the parts in ASA for UV-proofness.
+All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 model they should be exported to STL scaled down by 30.45 times (at least, this was correct for my [Prusa](https://www.prusa3d.com/) 3D printer) in order to achieve 1/32nd scale.  I printed all the parts in ASA for UV-proofness.
 
 ## cab_front_and_roof.blend
 The front portion of the cab and the roof immediately above it as two parts which should be printed separately.  For the roof, rotate it in your slicer through 90 degrees on the X axis and ask the slicer to add supports.
@@ -33,18 +33,20 @@ These parts should all be printed in black ASA since that would work best for pa
 I printed the chassis sides in 0.05 mm ultimate resolution and the rest in 0.2 mm fast resolution.
 
 ## body_motor_open_second_section_*.blend
-These files contain the five sections of the motor open second body.  Number 1 is at the front, attached to the cab, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports (the bar-like cylinders) have been added manually, no need to add any in your slicer programme; use a long-nosed pliers to break the supports away from the finished print, inserting it into the middle of the "waffle" shape to avoid damaging the wanted surfaces.
+These files contain the five sections of the motor open second body.  Number 1 is at the front, attached to the cab, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders), there is no need to add any in your slicer programme.  Use a long-nosed pliers to break the supports away from the finished print, inserting it into the middle of the "waffle" shape of the supports to avoid damaging the wanted surfaces.
 
 ![Body](pics_for_readme/body_1.jpg)
 ![Body on heat plate](pics_for_readme/body_2.jpg)
 
-I printed the body sections in white ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they have relatively sparse detail.
+On the taller sections, particularly section 1, it may be worth getting your slicer program to add a brim in order to ensure that the piece stays firmly anchored to the heat plate for the entirety of the printing process.
+
+I printed the body sections in white ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they are relatively sparse in detail.  
 
 ## seats.blend
-Passenger seats; print in white ASA, as they come, at 0.1 mm resolution, no supports required.
+Passenger seats; print in white ASA, as they come, at 0.1 mm resolution, no supports required, and indeed no finishing required: the ribs of the 3D print match those of the cloth.
 
 ## dmu_library.blend
-This file is a collection of the various component parts I used in creating all of the above: the jigsaw pattern, body template, un-cut chassis sides, various punches for hinges/door-stops etc.  Not to be printed in itself, just a useful repository of tools.
+This file is a collection of the various component parts I used in creating all of the above: the jigsaw pattern, body template, un-cut chassis sides, various punches for windows/hinges/door-stops etc.  Not to be printed in itself, just a useful repository of tools.
 
 # CNC Milled Parts
 These parts are milled from 3 mm thick aluminium plate (assumed to be 100 mm wide by at least 622 mm long) on my [cnc-step.de](https://cnc.step.de) High-Z/S-400T CNC milling machine.  The file format is [VCarve](https://www.vectric.com/products/vcarve.htm).
