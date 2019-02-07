@@ -45,6 +45,9 @@ I printed the body sections in white ASA at 0.15 mm resolution; they are quite l
 ## seats.blend
 Passenger seats; print in white ASA, as they come, at 0.1 mm resolution, no supports required, and indeed no finishing required aside from a quick rough filing of the horizontal part of the seat surface: the ribs of the 3D print otherwise match those of the cloth.
 
+## partitions.blend
+The internal partitions.  There are three sorts: the front and read side of the passenger compartment divider and the driver's compartment divider.  They should be printed at 0.15 mm resolution in white ASA, no supports required, just make sure to lie them with the flat side against the heat plate (each partition has only one flat side).
+
 ## dmu_library.blend
 This file is a collection of the various component parts I used in creating all of the above: the jigsaw pattern, body template, un-cut chassis sides, various punches for windows/hinges/door-stops etc.  Not to be printed in itself, just a useful repository of tools.
 
