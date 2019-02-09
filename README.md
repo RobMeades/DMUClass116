@@ -9,6 +9,8 @@ Please refer to that page for more information.
 # 3D Printed Parts
 All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 model they should be exported to STL scaled down by 30.45 times (at least, this was correct for my [Prusa](https://www.prusa3d.com/) 3D printer) in order to achieve 1/32nd scale.  I printed all the parts in ASA for UV-proofness, and specified 20% fill in the slicer program.  Other slicer program settings are given in the descriptions below for each part.
 
+ASA is more prone than PLA to come loose from the heat bed or warp during printing.  I found that if I kept the heat bed at 110 C throughout the print and kept the door of the cupboard in which my 3D printer is housed closed (in order to keep the air temperature relatively high) then I had no problems printing in ASA with my Prusa 3D printer.
+
 ## cab_front_and_roof.blend
 The front portion of the cab and the roof immediately above it as two parts which should be printed separately.  For the roof, rotate it in your slicer through 90 degrees on the X axis and ask the slicer to add supports.
 
