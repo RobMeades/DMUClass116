@@ -11,6 +11,9 @@ All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 mo
 
 ASA is more prone than PLA to come loose from the heat bed or warp during printing.  I found that if I kept the heat bed at 110 C throughout the print and kept the door of the cupboard in which my 3D printer is housed closed (in order to keep the air temperature relatively high) then I had no problems printing in ASA with my Prusa 3D printer.
 
+## dmu_class_116.blend
+This is a Blender file containing all of the other printed parts, plus colour and lighting, from a which a [video tour](https://youtu.be/fGLPumszhXk) was created.  This part is not for printing, simply for fun.
+
 ## cab_front_and_roof.blend
 The front portion of the cab and the roof immediately above it as two parts which should be printed separately.  For the roof, rotate it in your slicer through 90 degrees on the X axis and ask the slicer to add supports.
 
