@@ -37,9 +37,6 @@ These parts should all be printed in black ASA since that would work best for pa
 
 I printed the chassis sides in 0.05 mm ultimate resolution and the rest in 0.2 mm fast resolution.
 
-## corridor_joiner.blend
-The corridor joiner, still a work in progress.  My current plan is to print the mould (0.15 mm resolution, zero in-fill, worth adding a brim as there is otherwise very little contact area with the heat plate) in PLA along with nine copies of the ribs (0.1 mm resolution in black ASA).  Black latex will be painted inside the mould and, between coats of latex, the ribs will be inserted, then once everything is dry the mould will be broken away to reveal the completed latex-ribbed corridor.  At least, that's the plan at the moment.
-
 ## body_motor_open_second_*_section_*.blend
 These files contain the body sections.  Number 1 is at the front, attached to the cab where present, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders); there is no need to add any in your slicer programme (apologies in advance that the supports are somewhat unstructured: they worked fine with PLA but then needed quite a few changes to remain stable when printing ASA).  Use a long-nosed pliers to break the supports away from the finished print; if they don't budge easily then cut away the parts closest to the body with a sharp knife first.  Take particular care with body_motor_open_second_*_section_2.blend which includes rather a large amount of support material, and body_motor_open_second_*_section_1.blend which is quite thin in the cab door area.  The body sections have generally been designed to be slightly longer than required so that, should any shrinking of the base occur during printing, it can be remedied during assembly.
 
@@ -49,6 +46,9 @@ These files contain the body sections.  Number 1 is at the front, attached to th
 On the taller sections, particularly section body_motor_open_second_*_section_2.blend, you should get your slicer program to add a brim in order to ensure that the piece stays firmly anchored to the heat plate for the entirety of the printing process.
 
 I printed the body sections in white ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they are relatively sparse in detail.  Printing body sections 1 to 5 for a single DMU unit took around 50 hours on my Prusa 3D printer.
+
+## corridor_joiner.blend
+The corridor joiner, still a work in progress.  My current plan is to print the mould (0.15 mm resolution, zero in-fill, worth adding a brim as there is otherwise very little contact area with the heat plate) in PLA along with nine (or ten and throw one curly print away) copies of the ribs (0.1 mm resolution) in black ASA.  The plan is to paint black latex inside the mould and, between coats of latex, insert the ribs then, once everything is dry, the mould will be flexed away to reveal the completed latex-ribbed corridor joiner.  Tada! Maybe.
 
 ## seats.blend
 Passenger seats; print in white ASA, as they come, at 0.1 mm resolution, no supports required, though depending on how much you trust the adhesion of ASA on your heatbed you might wish to get your slicer to add a brim.  No finishing is required aside from a quick rough filing of the horizontal part of the seat surface since the ribs of the 3D print otherwise match those of the cloth.
