@@ -41,7 +41,7 @@ I printed the chassis sides in 0.05 mm ultimate resolution and the rest in 0.2 m
 ## buffer_bar.blend
 This is the part to which the buffers etc. attach.  It should be printed in black ASA at 0.15 mm resolution, oriented as it comes, no supports required but it would probably benefit from a brim added in your slicer program.
 
-## body_motor_open_second_\*_section_\*.blend
+## body_motor_open_second_\*\_section\_\*.blend
 These files contain the body sections.  Number 1 is at the front, attached to the cab where present, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders); there is no need to add any in your slicer programme (apologies in advance that the supports are somewhat unstructured: they worked fine with PLA but then needed quite a few changes to remain stable when printing ASA).  Use a long-nosed pliers to break the supports away from the finished print; if they don't budge easily then cut away the parts closest to the body with a sharp knife first.  Take particular care with body_motor_open_second_*_section_2.blend which includes rather a large amount of support material, and body_motor_open_second_*_section_1.blend which is quite thin in the cab door area.  The body sections have generally been designed to be slightly longer than required so that, should any shrinking of the base occur during printing, it can be remedied during assembly.
 
 ![Body](pics_for_readme/body_1.jpg)
