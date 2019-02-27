@@ -6,16 +6,15 @@ http://www.meades.org/misc/gauge_1_dmu/gauge_1_dmu.html
 
 Please refer to that page for more information.
 
-
 # 3D Printed Parts
 All of the 3D printed parts are rendered full-size in Blender.  For a Gauge 1 model they should be exported to STL scaled down by 30.45 times (at least, this was correct for my [Prusa](https://www.prusa3d.com/) 3D printer) in order to achieve 1/32nd scale.  Aside from `corridor_joiner.blend` (which requires a flexible material) I printed all the parts in ASA for UV-proofness.  I specified 20% fill in the slicer program.  Other slicer program settings are given in the descriptions below for each part.
 
 ASA is more prone than PLA to come loose from the heat bed or warp during printing.  I found that if I kept the heat bed at 110 C throughout the print and kept the door of the cupboard in which my 3D printer is housed closed (in order to keep the air temperature relatively high) then I had no problems printing in ASA with my Prusa 3D printer.
 
-## dmu_class_116.blend
+## `dmu_class_116.blend`
 This is a Blender file containing all of the other printed parts, plus colour and lighting, from a which a [video tour](https://youtu.be/fGLPumszhXk) was created.  This part is not for printing, simply for fun.
 
-## cab_front_and_roof.blend
+## `cab_front_and_roof.blend`
 The front portion of the cab and the roof immediately above it as two parts which should be printed separately.  For the roof, rotate it in your slicer through 90 degrees on the X axis and ask the slicer to add supports.
 
 ![Cab and roof](pics_for_readme/cab_front_and_roof_1.jpg)
@@ -23,10 +22,10 @@ The front portion of the cab and the roof immediately above it as two parts whic
 
 The cab requires no added supports - they have been manually added to the object and should be cut away after printing as shown; slicers otherwise tend to over-add supports which are difficult to remove on such an intricate print.  Both parts should be printed in white ASA for ease of painting; 0.1 mm resolution appears to be sufficient but, if you have sufficient trust in your 3D printer, the cab front would benefit from, say 0.05 mm resolution (which was an 18 hour print on my Prusa printer).
 
-## drivers_steps.blend
+## `drivers_steps.blend`
 These are the steps that lead up to the drivers door, intended to be CA'ed to the front of the driver's-end bogie.  Print off two copies in black ASA; resolution is not important (I used the "0.10 mm detail" setting on my Prusa printer).  In your slicer program, turn them upside-down so that the large flat top surface is against the heat bed and set the slicer program to add supports everywhere.  The printed parts will be somewhat support-busy I'm afraid; take care when trimming the support away not to break the wanted part.  When fitting the steps on either side of the front bogie you may need to trim the portion that hooks over the top of the bogie on the inner-side so that it fits nicely and doesn't foul the wheels.
 
-## chassis.blend
+## `chassis.blend`
 The chassis components, including:
 - a box which will be held underneath the aluminium chassis plate (see below for that CNC-printed part) to hold the control electronics for the DMU,
 - a piece which "jigsaw" attaches to that and will house the battery (held in place with Velcro straps) and fuse holder underneath the DMU,
@@ -38,29 +37,29 @@ These parts should all be printed in black ASA since that would work best for pa
 
 I printed the chassis sides in 0.05 mm ultimate resolution and the rest in 0.2 mm fast resolution.
 
-## buffer_bar.blend
+## `buffer_bar.blend`
 This is the part to which the buffers etc. attach.  It should be printed in black ASA at 0.15 mm resolution, oriented as it comes, no supports required but it would probably benefit from a brim added in your slicer program.
 
-## body_motor_open_second_\*\_section\_\*.blend
-These files contain the body sections.  Number 1 is at the front, attached to the cab where present, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders); there is no need to add any in your slicer programme (apologies in advance that the supports are somewhat unstructured: they worked fine with PLA but then needed quite a few changes to remain stable when printing ASA).  Use a long-nosed pliers to break the supports away from the finished print; if they don't budge easily then cut away the parts closest to the body with a sharp knife first.  Take particular care with `body_motor_open_second_\*\_section_2.blend` which includes rather a large amount of support material, and `body_motor_open_second_\*\_section_1.blend` which is quite thin in the cab door area.  The body sections have generally been designed to be slightly longer than required so that, should any shrinking of the base occur during printing, it can be remedied during assembly.
+## `body_motor_open_second_*_section_*.blend`
+These files contain the body sections.  Number 1 is at the front, attached to the cab where present, number 5 at the back.  Each section should be printed rotated by 90 degress on the X-axis, so that the rear-most end of the section is resting on the heat plate and the corridor rises vertically upwards.  As with the cab front, all the required supports have been added manually (the bar-like cylinders); there is no need to add any in your slicer programme (apologies in advance that the supports are somewhat unstructured: they worked fine with PLA but then needed quite a few changes to remain stable when printing ASA).  Use a long-nosed pliers to break the supports away from the finished print; if they don't budge easily then cut away the parts closest to the body with a sharp knife first.  Take particular care with `body_motor_open_second_*_section_2.blend` which includes rather a large amount of support material, and `body_motor_open_second_*_section_1.blend` which is quite thin in the cab door area.  The body sections have generally been designed to be slightly longer than required so that, should any shrinking of the base occur during printing, it can be remedied during assembly.
 
 ![Body](pics_for_readme/body_1.jpg)
 ![Body on heat plate](pics_for_readme/body_2.jpg)
 
-On the taller sections, particularly section `body_motor_open_second_\*\_section_2.blend`, you should get your slicer program to add a brim in order to ensure that the piece stays firmly anchored to the heat plate for the entirety of the printing process.
+On the taller sections, particularly section `body_motor_open_second_*_section_2.blend`, you should get your slicer program to add a brim in order to ensure that the piece stays firmly anchored to the heat plate for the entirety of the printing process.
 
 I printed the body sections in white ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they are relatively sparse in detail.  Printing body sections 1 to 5 for a single DMU unit took around 50 hours on my Prusa 3D printer.
 
-## corridor_joiner.blend
+## `corridor_joiner.blend`
 The corridor joiner, simply to be glued onto the origami part, see below.  Print at 0.15 mm resolution in black ASA.
 
-## seats.blend
+## `seats.blend`
 Passenger seats; print in white ASA, as they come, at 0.1 mm resolution, no supports required, though depending on how much you trust the adhesion of ASA on your heatbed you might wish to get your slicer to add a brim.  No finishing is required aside from a quick rough filing of the horizontal part of the seat surface since the ribs of the 3D print otherwise match those of the cloth.
 
-## partitions.blend
+## `partitions.blend`
 The internal partitions.  There are three sorts: the front and read side of the passenger compartment divider and the driver's compartment divider.  They should be printed at 0.15 mm resolution in white ASA, no supports required, just make sure to lie them with the flat side against the heat plate (each partition has only one flat side).
 
-## dmu_library.blend
+## `dmu_library.blend`
 This file is a collection of the various component parts I used in creating all of the above: the jigsaw pattern, body template, un-cut chassis sides, various punches for windows/hinges/door-stops etc.  Not to be printed in itself, just a useful repository of tools.
 
 # CNC Milled Parts
