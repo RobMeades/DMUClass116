@@ -54,7 +54,11 @@ I printed the body sections in white ASA at 0.15 mm resolution; they are quite l
 The corridor joiner, simply to be glued onto the origami part, see below.  Print at 0.15 mm resolution in black ASA.
 
 ## `seats.blend`
-Passenger seats; print in white ASA, as they come, at 0.1 mm resolution, no supports required, though depending on how much you trust the adhesion of ASA on your heatbed you might wish to get your slicer to add a brim.  No finishing is required aside from a quick rough filing of the horizontal part of the seat surface since the ribs of the 3D print otherwise match those of the cloth.
+Passenger seats; print in white ASA, as they come, at 0.1 mm resolution, no supports required, though depending on how much you trust the adhesion of ASA on your heatbed you might wish to get your slicer to add a brim.  No finishing is required aside from a quick rough filing of the horizontal part of the seat surface since the ribs of the 3D print otherwise match those of the cloth.  The number of seats of each type that need to be printed for each coach are as follows:
+
+* motor open second: 7 off 3-seater double, 7 off 2-seater double, 4 off 3-seater single, 6 off 2-seater single, 
+* motor open second brake: 5 off 3-seater double, 5 off 2-seater double, 3 off 3-seater single, 3 off 2-seater single, 
+* trailer composite:  7 off 3-seater double, 7 off 2-seater double, 4 off 3-seater single, 8 off 2-seater single.
 
 ## `partitions.blend`
 The internal partitions.  There are three sorts: the front and read side of the passenger compartment divider and the driver's compartment divider.  They should be printed at 0.15 mm resolution in white ASA, no supports required, just make sure to lie them with the flat side against the heat plate (each partition has only one flat side).
