@@ -52,6 +52,9 @@ You should get your slicer program to add a brim in order to ensure that the pie
 
 I printed the body sections in white ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they are relatively sparse in detail.  Printing body sections 1 to 5 for a single DMU unit took around 50 hours on my Prusa 3D printer.  Use a long-nosed pliers to break the supports away from the finished print; if they don't budge easily then cut away the parts closest to the body with a sharp knife first.  Take particular care with `body_motor_open_second_*_section_2.blend` which includes rather a large amount of support material, and `body_motor_open_second_*_section_1.blend` which is quite thin in the cab door area.
 
+## `body_roof_former.blend`
+This is used to mould the 0.5 mm thick plastic sheet that goes on the roof of the DMU under heat.  Place it on its flat end on the heat bed, just like the body sections.  I printed it in polycarbonate at 0.2 mm resolution for maximal thermal resistance but printing in ABS or ASA would probably also do the trick. You will need five of these to mould an entire roof.
+
 ## `corridor_joiner.blend`
 The corridor joiner, simply to be glued onto the origami part, see below.  Print at 0.15 mm resolution in black ASA.
 
