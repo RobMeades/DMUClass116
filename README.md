@@ -46,7 +46,9 @@ These files contain the body sections.  Number 1 is at the front, attached to th
 ![Body](pics_for_readme/body_1.jpg)
 ![Body on heat plate](pics_for_readme/body_2.jpg)
 
-You should get your slicer program to add a brim in order to ensure that the piece remains anchored to the heat plate for the entirety of the printing process, though be careful when removing the brim that you don't accidentally remove the hinge details that can be present on the same edge.  You could also, of course, make some ABS juice (look it up) or use some form of 3D printer heat-bed adhesive.  I printed the body sections in natural ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they are relatively sparse in detail.  Printing body sections 1 to 5 for a single DMU unit took around 70 hours on my Prusa 3D printer.  Use a long-nosed pliers to break the supports away from the finished print; if they don't budge easily then cut away the parts closest to the body with a sharp knife first.  Take particular care with `body_motor_open_second_*_section_2.blend` which includes rather a large amount of support material, and `body_motor_open_second_*_section_1.blend` which is quite thin in the cab door area.
+You should get your slicer program to add a brim in order to ensure that the piece remains anchored to the heat plate for the entirety of the printing process, though be careful when removing the brim that you don't accidentally remove the hinge details that can be present on the same edge.  You could also, of course, make some ABS juice (look it up) or use some form of 3D printer heat-bed adhesive; just keep that lower edge stuck to the heat bed all around or the body ends won't be straight and hence won't mate with each other nicely.
+
+I printed the body sections in natural ASA at 0.15 mm resolution; they are quite large so printing in a higher resolution would take prohibitively long and, in any case, they are relatively sparse in detail.  Printing body sections 1 to 5 for a single DMU unit took around 70 hours on my Prusa 3D printer.  Use a long-nosed pliers to break the supports away from the finished print; if they don't budge easily then cut away the parts closest to the body with a sharp knife first.  Take particular care with `body_motor_open_second_*_section_2.blend` which includes rather a large amount of support material, and `body_motor_open_second_*_section_1.blend` which is quite thin in the cab door area.
 
 ## `body_roof_former.blend`
 This is used to mould the 0.5 mm thick plastic sheet that goes on the roof of the DMU.  Place it on its flat end on the heat bed, just like the body sections, and get your slicer program to add a brim.  I printed it in polycarbonate at 0.2 mm resolution for maximal thermal resistance; printing polycarbonate can be quite a stretch for a 3D printer and so you could fall back to ASA or ABS if you wish, just bear in mind that the mould will then flex rather more under the influence of heat. You will need five of these to mould an entire roof.
@@ -62,7 +64,15 @@ Passenger seats; print in natural ASA, as they come, at 0.1 mm resolution, no su
 * trailer composite:  7 off 3-seater double, 7 off 2-seater double, 4 off 3-seater single, 8 off 2-seater single.
 
 ## `partitions.blend`
-The internal partitions.  There are three sorts: the front and read side of the passenger compartment divider and the driver's compartment divider.  They should be printed at 0.15 mm resolution in natural ASA, no supports required, just make sure to lie them with the flat side against the heat plate (each partition has only one flat side).
+The internal partitions.  There are several sorts:
+
+* front and rear side of the passenger compartment partition,
+* inner and outer sides of the brake van compartment partition,
+* front and rear side of the driver's compartment partition.
+
+Despite their simplicity these caused me immense problems in Blender: I could never, no matter what I did, make the flat sides (which you should lie on the 3D printer's heat bed) completely flat.  So please check, when placing them in your slicer program, that they lie completely flat after slicing and, if not, cut them in your slicer program very slightly, just enough to create a truly flat face against the heat bed.
+
+They should be printed at 0.15 mm resolution in natural ASA, brim advisable, no supports required.  You will need to print three sets of the passenger compartment and two sets of the driver's compartment partitions.
 
 ## `dmu_library.blend`
 This file is a collection of the various component parts I used in creating all of the above: the jigsaw pattern, body template, un-cut chassis sides, various punches for windows/hinges/door-stops etc.  Not to be printed in itself, just a useful repository of tools.
