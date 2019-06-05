@@ -54,7 +54,7 @@ I printed the body sections in natural ASA at 0.15 mm resolution; they are quite
 This is used to mould the 0.5 mm thick plastic sheet that goes on the roof of the DMU.  Place it on its flat end on the heat bed, just like the body sections, and get your slicer program to add a brim.  I printed it in polycarbonate at 0.2 mm resolution for maximal thermal resistance; printing polycarbonate can be quite a stretch for a hobbyist 3D printer and so you could fall back to ASA or ABS if you wish, just bear in mind that the mould will then flex rather more under the influence of heat. You will need five of these to mould an entire roof.  The prints don't have to be good, they are after all only a mould, so even a not-quite finished and somewhat ropy print could still be useful.
 
 ## `body_internal_supports.blend`
-Supports for an SND-620 speaker (from [fosworks.co.uk](fosworks.co.uk)) speaker and 3 mm diameter LEDs, to be glued to the inside of the body where these components are to be mounted.  All should be printed in ASA at 0.2 mm resolution.  The speaker support should be place on its flat-ish base but, since it isn't actualy flat, add support on the heat bed in your slicer program.
+Supports for an SND-620 speaker (from [fosworks.co.uk](fosworks.co.uk)) speaker and 3 mm diameter LEDs, to be glued to the inside of the body where these components are to be mounted.  All should be printed in natural ASA at 0.2 mm resolution.  The speaker support should be placed on the heatbed on its flat-ish base but, since it isn't actualy flat, ask for support on the heat bed in your slicer program.
 
 ## `corridor_joiner.blend`
 The corridor joiner, simply to be glued onto the origami part, see below.  Print at 0.15 mm resolution in black ASA.
